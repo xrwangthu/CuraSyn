@@ -1,0 +1,24 @@
+# Local patient records and derived data
+/datasets/ehr/
+/datasets/private_ehr/
+/datasets/mimic-process/resources/
+/datasets/mimic-process/outputs/
+/datasets/mimic-process/mimic_ehr_config.json
+
+# Generated outputs and local credentials
+/results/
+/eval/
+/logs/
+.env
+
+# Python and editor caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+._*
+
+# Literature extraction local inputs, configuration, and run artifacts
+/constraintKB/create_kb/config.json
+/constraintKB/create_kb/inputs/
+/constraintKB/create_kb/runs/

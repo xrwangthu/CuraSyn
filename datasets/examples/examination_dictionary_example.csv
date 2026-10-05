@@ -1,0 +1,4 @@
+field,meaning,unit
+white_blood_cell_count,White blood cell count,10^9/L
+hemoglobin_concentration,Hemoglobin concentration,g/L
+platelet_count,Platelet count,10^9/L

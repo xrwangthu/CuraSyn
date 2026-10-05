@@ -1,0 +1,9 @@
+patient_identifier,inborn_error_of_immunity_diagnosis,hpo_codes,sex,age_in_years,white_blood_cell_count,hemoglobin_concentration,platelet_count,IUIS_table
+example_patient_001,Common variable immunodeficiency without known genetic defect,"[""HP:0002719""]",F,24,5.2,128,230,Table 3 Predominantly Antibody Deficiencies
+example_patient_002,Common variable immunodeficiency without known genetic defect,"[""HP:0002719"",""HP:0001945""]",M,35,6.4,140,260,Table 3 Predominantly Antibody Deficiencies
+example_patient_003,Common variable immunodeficiency without known genetic defect,"[""HP:0002719""]",F,42,4.8,122,,Table 3 Predominantly Antibody Deficiencies
+example_patient_004,Common variable immunodeficiency without known genetic defect,[],M,28,5.9,135,210,Table 3 Predominantly Antibody Deficiencies
+example_patient_005,Familial Mediterranean fever,"[""HP:0001945""]",F,21,7.1,126,280,Table 7 Autoinflammatory Disorders
+example_patient_006,Familial Mediterranean fever,"[""HP:0001945""]",M,33,6.8,142,250,Table 7 Autoinflammatory Disorders
+example_patient_007,Familial Mediterranean fever,"[""HP:0001945""]",F,46,5.6,120,240,Table 7 Autoinflammatory Disorders
+example_patient_008,Familial Mediterranean fever,[],M,30,6.2,,220,Table 7 Autoinflammatory Disorders

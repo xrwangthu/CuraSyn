@@ -1,0 +1,14 @@
+# Curasyn generation, dynamic knowledge, and static knowledge processing
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.2
+scikit-learn==1.7.2
+xgboost==3.2.0
+PyYAML==6.0.3
+openai==2.44.0
+httpx==0.28.1
+
+# MIMIC Excel input and BioLORD-based HPO extraction
+openpyxl==3.1.5
+torch==2.11.0
+transformers==5.14.1

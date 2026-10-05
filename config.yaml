@@ -1,0 +1,73 @@
+sysname: curasyn
+
+data:
+  data_seed: 0
+  hpo_vocabulary_files:
+    ehr: constraintKB/ontology/ehr_hpo_vocabulary.json
+    private_ehr: null  # Required for Private EHR: supply its fixed task vocabulary file
+
+paths:
+  dataset_csv: null  # Default: datasets/<dataset>/processed/ehr.csv
+  train_csv: null    # Default: datasets/<dataset>/splits/train.csv
+  test_csv: null     # Default: datasets/<dataset>/splits/test.csv
+  results_dir: null  # Default: results/<dataset>
+
+run:
+  seed: null
+  artifact_tag: null
+
+generation:
+  serving: vllm
+  model: null  # Required: model ID served by your vLLM endpoint
+  n_samples: 1000
+  temperature: 0.9
+  max_tokens: 8000
+  top_p: 0.95
+  n_processes: 2
+  max_rounds: 2000
+  max_stalled_rounds_per_target: 256
+  request_retries: 4
+  retry_delay_seconds: 0
+  disease_weights:
+    mode: empirical
+    custom: null
+  api:
+    base_url: null  # Required: http://<host>:<port>/v1
+    api_key: null  # Required: service API key; use EMPTY if no authentication is configured
+
+retrieval:
+  max_exemplars: 5
+  theta: 5
+  numerical_bins: 50
+  numerical_missing_policy: median
+  coverage_minimum_support: 2
+  max_shared_anchors: 4
+
+knowledge:
+  source: constraintKB/kb/clinical_knowledge.sqlite
+  hpo_path: null  # Default: constraintKB/ontology/hp.obo
+  max_items: 12
+  max_phenotype_items: 16
+  max_examination_items: 4
+  include_demographic: true
+  empirical_hpo:
+    enabled: true
+    minimum_support:
+      ehr: 7
+      private_ehr: 10
+    frequency_control: residual
+
+curation:
+  mode: subtype_calibrated
+  n_estimators: 100
+  n_jobs: 4
+  epsilon: 1.0e-8
+  standardized_confidence_threshold: -2.0
+  standardized_uncertainty_threshold: -2.0
+  numerical_validity:
+    iqr_multiplier: 3.0
+    zero_iqr_margin: 0.25
+  encoder:
+    hpo_encoding: multihot
+    categorical_encoding: onehot
+    numerical_missing_policy: median

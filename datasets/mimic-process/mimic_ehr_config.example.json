@@ -1,0 +1,11 @@
+{
+  "hosp_dir": "/path/to/mimic-iv-3.1/hosp",
+  "notes_dir": "/path/to/mimic-iv-note-2.2/note",
+  "iuis_file": "/path/to/IUIS-IEI-list-for-web-site-July-2024V2.xlsx",
+  "iuis_checked_file": "/path/to/checked_iuis.xlsx",
+  "hpo_helper_csv": null,
+  "output_dir": "outputs/iei_mimic",
+  "reference_final": null,
+  "chunksize": 500000,
+  "skip_reference_compare": true
+}

@@ -1,0 +1,2918 @@
+{
+  "constraints": {
+    "1": {
+      "IF": "Hereditary angioedema",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0033834 - Malaise",
+          "STRENGTH": "Up to 50% of patients report prodromes before their attacks; these symptoms can be reliable harbingers of attacks in some patients but less commonly in children"
+        }
+      ]
+    },
+    "2": {
+      "IF": "Activated PI3Kd syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0031245 - Productive cough",
+          "STRENGTH": "often"
+        },
+        {
+          "CONSTRAINT": "HPO:0002870 - Obstructive sleep apnea",
+          "STRENGTH": "often"
+        }
+      ]
+    },
+    "3": {
+      "IF": "Activated PI3K delta syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0002870 - Obstructive sleep apnea",
+          "STRENGTH": "often"
+        }
+      ]
+    },
+    "4": {
+      "IF": "common variable immunodeficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0005523 - Lymphoproliferative disorder",
+          "STRENGTH": "30%"
+        },
+        {
+          "CONSTRAINT": "HPO:0001409 - Portal hypertension",
+          "STRENGTH": "associated with"
+        },
+        {
+          "CONSTRAINT": "HPO:0032252 - Granuloma",
+          "STRENGTH": "36%"
+        },
+        {
+          "CONSTRAINT": "HPO:0001409 - Portal hypertension",
+          "STRENGTH": "61%"
+        },
+        {
+          "CONSTRAINT": "HPO:0100280 - Crohn's disease",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "5": {
+      "IF": "LRBA deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0005523 - Lymphoproliferative disorder",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "6": {
+      "IF": "IL-10 deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0025084 - Folliculitis",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "7": {
+      "IF": "IL-10Ra deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0025084 - Folliculitis",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "8": {
+      "IF": "IL-10Rb deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0025084 - Folliculitis",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "9": {
+      "IF": "Familial Mediterranean Fever",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0045073 - Serositis",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0045073 - Serositis",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0100749 - Chest pain",
+          "STRENGTH": "to a lesser degree"
+        },
+        {
+          "CONSTRAINT": "HPO:0012532 - Chronic pain",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "10": {
+      "IF": "Mevalonate Kinase Deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0025289 - Cervical lymphadenopathy",
+          "STRENGTH": "often"
+        }
+      ]
+    },
+    "11": {
+      "IF": "Granulomatous-Lymphocytic Interstitial Lung Disease",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0025179 - Ground-glass opacification",
+          "STRENGTH": "More than 80% of (22 of 25) respondents rated ... as necessary or typical"
+        }
+      ]
+    },
+    "12": {
+      "IF": "hemophagocytic lymphohistiocytosis",
+      "THEN": [
+        {
+          "CONSTRAINT": "absolute neutrophil count < 1000/mm^3",
+          "STRENGTH": "always"
+        }
+      ],
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0003281 - Increased circulating ferritin concentration",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0003256 - Abnormality of the coagulation cascade",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0003281 - Increased circulating ferritin concentration",
+          "STRENGTH": "often"
+        },
+        {
+          "CONSTRAINT": "HPO:0003281 - Increased circulating ferritin concentration",
+          "STRENGTH": "often"
+        }
+      ]
+    },
+    "13": {
+      "IF": "macrophage activation syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0003281 - Increased circulating ferritin concentration",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "14": {
+      "IF": "Sideroblastic anaemia with B-cell immunodeficiency, periodic fever and developmental delay (SIFD) syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001935 - Microcytic anemia",
+          "STRENGTH": "55/58"
+        },
+        {
+          "CONSTRAINT": "HPO:0001954 - Recurrent fever",
+          "STRENGTH": "52/58"
+        },
+        {
+          "CONSTRAINT": "HPO:0000707 - Abnormality of the nervous system",
+          "STRENGTH": "48/58"
+        }
+      ]
+    },
+    "15": {
+      "IF": "Sideroblastic Anaemia with B‐Cell Immunodefciency, Periodic Fever and Developmental Delay (SIFD) Syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001935 - Microcytic anemia",
+          "STRENGTH": "54/58, 93.1%"
+        },
+        {
+          "CONSTRAINT": "HPO:0001954 - Recurrent fever",
+          "STRENGTH": "52/58, 89.6%"
+        },
+        {
+          "CONSTRAINT": "HPO:0003128 - Lactic acidosis",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0000121 - Nephrocalcinosis",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0000121 - Nephrocalcinosis",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0003128 - Lactic acidosis",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0001942 - Metabolic acidosis",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0100614 - Myositis",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0000121 - Nephrocalcinosis",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0001935 - Microcytic anemia",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0005363 - Humoral immunodeficiency",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0001954 - Recurrent fever",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "16": {
+      "IF": "SIFD syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0000121 - Nephrocalcinosis",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0001942 - Metabolic acidosis",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0001667 - Right ventricular hypertrophy",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0000121 - Nephrocalcinosis",
+          "STRENGTH": "frequently described"
+        },
+        {
+          "CONSTRAINT": "HPO:0001386 - Joint swelling",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "17": {
+      "IF": "Common variable immunodeficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0003155 - Elevated circulating alkaline phosphatase concentration",
+          "STRENGTH": "most patients"
+        },
+        {
+          "CONSTRAINT": "HPO:0001409 - Portal hypertension",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0001409 - Portal hypertension",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0033770 - Gastric adenocarcinoma",
+          "STRENGTH": "Up to 20% of adult patients with CVID develop cancer... including... gastrointestinal cancer"
+        },
+        {
+          "CONSTRAINT": "HPO:0004469 - Chronic bronchitis",
+          "STRENGTH": "often"
+        },
+        {
+          "CONSTRAINT": "HPO:0002664 - Neoplasm",
+          "STRENGTH": "sometimes"
+        },
+        {
+          "CONSTRAINT": "HPO:0001409 - Portal hypertension",
+          "STRENGTH": "sometimes"
+        },
+        {
+          "CONSTRAINT": "HPO:0003193 - Allergic rhinitis",
+          "STRENGTH": "5.6%"
+        },
+        {
+          "CONSTRAINT": "HPO:0002664 - Neoplasm",
+          "STRENGTH": "0.6%"
+        },
+        {
+          "CONSTRAINT": "HPO:0001045 - Vitiligo",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0032177 - Parenchymal consolidation",
+          "STRENGTH": "variable"
+        },
+        {
+          "CONSTRAINT": "HPO:0011109 - Chronic sinusitis",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0004469 - Chronic bronchitis",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0033542 - Bronchial wall thickening",
+          "STRENGTH": "44%"
+        },
+        {
+          "CONSTRAINT": "HPO:0032252 - Granuloma",
+          "STRENGTH": "most lesions present as"
+        }
+      ]
+    },
+    "18": {
+      "IF": "Chromosome 22q11.2 Deletion Syndrome",
+      "THEN": [
+        {
+          "CONSTRAINT": "IgG level < 500 mg/dL",
+          "STRENGTH": "6.2% of patients over age 3 years and 5.6% over age 5 years"
+        },
+        {
+          "CONSTRAINT": "IgM levels < 40 mg/dL",
+          "STRENGTH": "23%"
+        },
+        {
+          "CONSTRAINT": "IgG levels > 550 mg/dL",
+          "STRENGTH": "All but one of these patients"
+        }
+      ],
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0011850 - Parotitis",
+          "STRENGTH": "two individuals"
+        },
+        {
+          "CONSTRAINT": "HPO:0002608 - Celiac disease",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "19": {
+      "IF": "severe combined immune deficiency caused by adenosine deaminase deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0002664 - Neoplasm",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "20": {
+      "IF": "Humoral defects",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0004395 - Malnutrition",
+          "STRENGTH": "Hallmarks"
+        },
+        {
+          "CONSTRAINT": "HPO:0002664 - Neoplasm",
+          "STRENGTH": "Hallmarks"
+        },
+        {
+          "CONSTRAINT": "HPO:0032252 - Granuloma",
+          "STRENGTH": "Hallmarks"
+        }
+      ]
+    },
+    "21": {
+      "IF": "X-linked agammaglobulinemia",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0033770 - Gastric adenocarcinoma",
+          "STRENGTH": "reported"
+        },
+        {
+          "CONSTRAINT": "HPO:0011109 - Chronic sinusitis",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0004469 - Chronic bronchitis",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "22": {
+      "IF": "DGSSpectrum",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0100584 - Endocarditis",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "23": {
+      "IF": "CID",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0002664 - Neoplasm",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "24": {
+      "IF": "Innate immunity defects",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0002664 - Neoplasm",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "25": {
+      "IF": "DRSs, Inborn errors with malignancies",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0004395 - Malnutrition",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0032252 - Granuloma",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0002664 - Neoplasm",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0001409 - Portal hypertension",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "26": {
+      "IF": "HSCT or GT",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0002664 - Neoplasm",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "27": {
+      "IF": "DiGeorge syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0012622 - Chronic kidney disease",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0002664 - Neoplasm",
+          "STRENGTH": "higher overall rate"
+        }
+      ]
+    },
+    "28": {
+      "IF": "Chronic granulomatous disease",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001409 - Portal hypertension",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0032252 - Granuloma",
+          "STRENGTH": "often"
+        },
+        {
+          "CONSTRAINT": "HPO:0002840 - Lymphadenitis",
+          "STRENGTH": "often"
+        }
+      ]
+    },
+    "29": {
+      "IF": "Ataxia-telangiectasia",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0032252 - Granuloma",
+          "STRENGTH": "frequently occurs"
+        },
+        {
+          "CONSTRAINT": "HPO:0001336 - Myoclonus",
+          "STRENGTH": "in a quarter of patients"
+        },
+        {
+          "CONSTRAINT": "HPO:0031245 - Productive cough",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0031246 - Nonproductive cough",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0030830 - Crackles",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0001217 - Clubbing",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "30": {
+      "IF": "hereditary angioedema due to C1-INH deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0003124 - Hypercholesterolemia",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "31": {
+      "IF": "Hereditary Angioedema",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0030828 - Wheezing",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0031352 - Chest tightness",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0031244 - Swollen lip",
+          "STRENGTH": "rare"
+        },
+        {
+          "CONSTRAINT": "HPO:0100845 - Anaphylactic shock",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "32": {
+      "IF": "Reactive Hemophagocytic Syndrome",
+      "THEN": [
+        {
+          "CONSTRAINT": "Hemoglobin 7.3-9.2 g/dL",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "Platelets 30-92 10^9/L",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "Serum sodium 129-137 mmol/L",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "AST 31-171 UI/L",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "ALT 21-89 UI/L",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "Total bilirubin 12-54 μmol/L",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "Creatinine 59-118 μmol/L",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "Prothrombin time 58-80 %",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "33": {
+      "IF": "Acquired Angioedema due to C1-INH Deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0002664 - Neoplasm",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "34": {
+      "IF": "Common variable immunodeficiency-associated interstitial lung disease",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0025179 - Ground-glass opacification",
+          "STRENGTH": "always"
+        }
+      ]
+    },
+    "35": {
+      "IF": "Nodular regenerative hyperplasia",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001409 - Portal hypertension",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "36": {
+      "IF": "Nodular regenerative hyperplasia of liver",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0003155 - Elevated circulating alkaline phosphatase concentration",
+          "STRENGTH": "common and relatively early finding"
+        },
+        {
+          "CONSTRAINT": "HPO:0001409 - Portal hypertension",
+          "STRENGTH": "range from asymptomatic to complications"
+        }
+      ]
+    },
+    "37": {
+      "IF": "Mendelian Susceptibility to Mycobacterial Disease",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001409 - Portal hypertension",
+          "STRENGTH": "rare"
+        }
+      ]
+    },
+    "38": {
+      "IF": "ADA2 deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001409 - Portal hypertension",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0034786 - Leukocytoclastic vasculitis",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "39": {
+      "IF": "Hypomorphic SCID",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0032252 - Granuloma",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "40": {
+      "IF": "Chronic Atypical Neutrophilic Dermatosis With Lipodystrophy and Elevated Temperature (CANDLE) Syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0020071 - Viremia",
+          "STRENGTH": "46.2%"
+        },
+        {
+          "CONSTRAINT": "HPO:0020102 - Pneumocystis jirovecii pneumonia",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "41": {
+      "IF": "Other Type I Interferonopathies",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0020102 - Pneumocystis jirovecii pneumonia",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0012330 - Pyelonephritis",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "42": {
+      "IF": "Fanconi anemia",
+      "THEN": [
+        {
+          "CONSTRAINT": "Platelets > 80 K/uL",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "hemoglobin <= 8 g/dl",
+          "STRENGTH": "always"
+        },
+        {
+          "CONSTRAINT": "absolute neutrophil count <= 0.5 × 10^9 per liter",
+          "STRENGTH": "always"
+        },
+        {
+          "CONSTRAINT": "platelet count < 20 × 10^9 per liter",
+          "STRENGTH": "always"
+        }
+      ],
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0040270 - Impaired glucose tolerance",
+          "STRENGTH": "27–68%"
+        },
+        {
+          "CONSTRAINT": "HPO:0003074 - Hyperglycemia",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0003124 - Hypercholesterolemia",
+          "STRENGTH": "17%"
+        },
+        {
+          "CONSTRAINT": "HPO:0002953 - Vertebral compression fracture",
+          "STRENGTH": "uncertain"
+        },
+        {
+          "CONSTRAINT": "HPO:0000789 - Infertility",
+          "STRENGTH": "Around half of women who reach childbearing age will suffer from subfertility or infertility"
+        },
+        {
+          "CONSTRAINT": "HPO:0000789 - Infertility",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0003074 - Hyperglycemia",
+          "STRENGTH": "30% of children and 9% of adults"
+        },
+        {
+          "CONSTRAINT": "HPO:0100512 - Decreased circulating vitamin D concentration",
+          "STRENGTH": "71%"
+        },
+        {
+          "CONSTRAINT": "HPO:0003074 - Hyperglycemia",
+          "STRENGTH": "in 10"
+        },
+        {
+          "CONSTRAINT": "HPO:0000789 - Infertility",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0020071 - Viremia",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "43": {
+      "IF": "ataxia telangiectasia",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0004395 - Malnutrition",
+          "STRENGTH": "often"
+        },
+        {
+          "CONSTRAINT": "HPO:0011946 - Bronchiolitis obliterans",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0030830 - Crackles",
+          "STRENGTH": "usually"
+        },
+        {
+          "CONSTRAINT": "HPO:0100759 - Clubbing of fingers",
+          "STRENGTH": "usually"
+        },
+        {
+          "CONSTRAINT": "HPO:0031246 - Nonproductive cough",
+          "STRENGTH": "21 out of 25 patients"
+        },
+        {
+          "CONSTRAINT": "HPO:0004395 - Malnutrition",
+          "STRENGTH": "high rates"
+        },
+        {
+          "CONSTRAINT": "HPO:0200136 - Oral-pharyngeal dysphagia",
+          "STRENGTH": "common"
+        },
+        {
+          "CONSTRAINT": "HPO:0005978 - Type II diabetes mellitus",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0033542 - Bronchial wall thickening",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "44": {
+      "IF": "familial Mediterranean fever",
+      "THEN": [
+        {
+          "CONSTRAINT": "aspartate aminotransferase > 100–120 U/L",
+          "STRENGTH": "possible"
+        }
+      ],
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0003198 - Myopathy",
+          "STRENGTH": "often"
+        },
+        {
+          "CONSTRAINT": "HPO:0001919 - Acute kidney injury",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0001919 - Acute kidney injury",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0045073 - Serositis",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0001882 - Decreased total leukocyte count",
+          "STRENGTH": "rare"
+        },
+        {
+          "CONSTRAINT": "HPO:0003198 - Myopathy",
+          "STRENGTH": "rare"
+        }
+      ]
+    },
+    "45": {
+      "IF": "CD55/DAF deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0002243 - Protein-losing enteropathy",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "46": {
+      "IF": "C3 deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0031864 - Bacteremia",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0030880 - Raynaud phenomenon",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "47": {
+      "IF": "CD55 deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0002243 - Protein-losing enteropathy",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "48": {
+      "IF": "Partial FI deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0012330 - Pyelonephritis",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "49": {
+      "IF": "Isolated congenital CD55 deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0002243 - Protein-losing enteropathy",
+          "STRENGTH": "rare"
+        }
+      ]
+    },
+    "50": {
+      "IF": "Complement deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0031864 - Bacteremia",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "51": {
+      "IF": "Selective IgA deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001370 - Rheumatoid arthritis",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0002608 - Celiac disease",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0002608 - Celiac disease",
+          "STRENGTH": "higher prevalence"
+        },
+        {
+          "CONSTRAINT": "HPO:0002608 - Celiac disease",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "52": {
+      "IF": "Kabuki syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001045 - Vitiligo",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0001943 - Hypoglycemia",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0000863 - Central diabetes insipidus",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0005978 - Type II diabetes mellitus",
+          "STRENGTH": "as high as 20%"
+        },
+        {
+          "CONSTRAINT": "HPO:0001943 - Hypoglycemia",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0005363 - Humoral immunodeficiency",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "53": {
+      "IF": "GATA2 deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001004 - Lymphedema",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0001004 - Lymphedema",
+          "STRENGTH": "11–15"
+        },
+        {
+          "CONSTRAINT": "HPO:0025179 - Ground-glass opacification",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0001004 - Lymphedema",
+          "STRENGTH": "often"
+        },
+        {
+          "CONSTRAINT": "HPO:0001004 - Lymphedema",
+          "STRENGTH": "variable"
+        },
+        {
+          "CONSTRAINT": "HPO:0001004 - Lymphedema",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0001004 - Lymphedema",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0001004 - Lymphedema",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0011946 - Bronchiolitis obliterans",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0001004 - Lymphedema",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "54": {
+      "IF": "IL-10 signaling defects",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0025084 - Folliculitis",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0025084 - Folliculitis",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0025084 - Folliculitis",
+          "STRENGTH": "always"
+        }
+      ]
+    },
+    "55": {
+      "IF": "Trichohepatoenteric S.",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0025084 - Folliculitis",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "56": {
+      "IF": "MASP deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0025084 - Folliculitis",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "57": {
+      "IF": "IL-10 signaling defect",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0025084 - Folliculitis",
+          "STRENGTH": "always"
+        }
+      ]
+    },
+    "58": {
+      "IF": "PTEN hamartoma tumor syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0032564 - Ileitis",
+          "STRENGTH": "rare complication"
+        },
+        {
+          "CONSTRAINT": "HPO:0032564 - Ileitis",
+          "STRENGTH": "rare"
+        }
+      ]
+    },
+    "59": {
+      "IF": "Monogenic IBD",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0025084 - Folliculitis",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0045073 - Serositis",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0025084 - Folliculitis",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0025084 - Folliculitis",
+          "STRENGTH": "For example"
+        },
+        {
+          "CONSTRAINT": "HPO:0045073 - Serositis",
+          "STRENGTH": "For example"
+        }
+      ]
+    },
+    "60": {
+      "IF": "Blau Syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0032252 - Granuloma",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "61": {
+      "IF": "PLAID",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0032252 - Granuloma",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "62": {
+      "IF": "chronic granulomatous disease",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001409 - Portal hypertension",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "63": {
+      "IF": "Hyper-IgM syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0020102 - Pneumocystis jirovecii pneumonia",
+          "STRENGTH": "sometimes"
+        }
+      ]
+    },
+    "64": {
+      "IF": "Epidermodysplasia verruciformis",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0002664 - Neoplasm",
+          "STRENGTH": "30 to 60%"
+        }
+      ]
+    },
+    "65": {
+      "IF": "primary immunodeficiencies",
+      "THEN": [
+        {
+          "CONSTRAINT": "serum IgG < 200 mg/dL",
+          "STRENGTH": "always"
+        },
+        {
+          "CONSTRAINT": "serum IgG 200 to 500 mg/dL",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "serum IgG > 500 mg/dL",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "serum IgG 700 to 1,000 mg/dL",
+          "STRENGTH": "asserted"
+        }
+      ],
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0033834 - Malaise",
+          "STRENGTH": "often"
+        },
+        {
+          "CONSTRAINT": "HPO:0001649 - Tachycardia",
+          "STRENGTH": "often"
+        },
+        {
+          "CONSTRAINT": "HPO:0025143 - Chills",
+          "STRENGTH": "often"
+        },
+        {
+          "CONSTRAINT": "HPO:0003418 - Back pain",
+          "STRENGTH": "often"
+        },
+        {
+          "CONSTRAINT": "HPO:0100845 - Anaphylactic shock",
+          "STRENGTH": "seldom"
+        },
+        {
+          "CONSTRAINT": "HPO:0025143 - Chills",
+          "STRENGTH": "about 3% of infusions"
+        }
+      ]
+    },
+    "66": {
+      "IF": "immunodeficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0032323 - Periodic fever",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0100280 - Crohn's disease",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "67": {
+      "IF": "Primary immunodeficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001058 - Poor wound healing",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0011946 - Bronchiolitis obliterans",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "68": {
+      "IF": "primary immunodeficiency",
+      "THEN": [
+        {
+          "CONSTRAINT": "ALC < 2.5 K/uL",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "IgG levels >= 8 g/L",
+          "STRENGTH": "always"
+        }
+      ],
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0020102 - Pneumocystis jirovecii pneumonia",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0001397 - Hepatic steatosis",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0011946 - Bronchiolitis obliterans",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0011109 - Chronic sinusitis",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "69": {
+      "IF": "severe combined immunodeficiency disease",
+      "THEN": [
+        {
+          "CONSTRAINT": "absolute lymphocyte count < 2500 /L",
+          "STRENGTH": "always"
+        }
+      ]
+    },
+    "70": {
+      "IF": "cartilage-hair hypoplasia",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001370 - Rheumatoid arthritis",
+          "STRENGTH": "Up to 11%"
+        },
+        {
+          "CONSTRAINT": "HPO:0005523 - Lymphoproliferative disorder",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0005523 - Lymphoproliferative disorder",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0002664 - Neoplasm",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "71": {
+      "IF": "STAT3 deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0030830 - Crackles",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0030828 - Wheezing",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0003418 - Back pain",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0002953 - Vertebral compression fracture",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "72": {
+      "IF": "CTLA-4 insufficiency",
+      "THEN": [
+        {
+          "CONSTRAINT": "absolute neutrophil count of 0.8 × 10^9/L = 0.8 K/uL",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "73": {
+      "IF": "STAT3-HIES",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0025084 - Folliculitis",
+          "STRENGTH": "sometimes"
+        }
+      ]
+    },
+    "74": {
+      "IF": "AD-HIES STAT3 deficiency (Job syndrome)",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0025084 - Folliculitis",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "75": {
+      "IF": "Hypereosinophilic syndrome due to somatic mutations in STAT5b",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001047 - Atopic dermatitis",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "76": {
+      "IF": "Loeys-Dietz syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0003193 - Allergic rhinitis",
+          "STRENGTH": "high prevalence"
+        },
+        {
+          "CONSTRAINT": "HPO:0001047 - Atopic dermatitis",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "77": {
+      "IF": "ADA-SCID",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0003193 - Allergic rhinitis",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0001047 - Atopic dermatitis",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "78": {
+      "IF": "CARD14 deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001047 - Atopic dermatitis",
+          "STRENGTH": "usually"
+        },
+        {
+          "CONSTRAINT": "HPO:0003193 - Allergic rhinitis",
+          "STRENGTH": "usually"
+        }
+      ]
+    },
+    "79": {
+      "IF": "JAK1 gain-of-function",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001047 - Atopic dermatitis",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "80": {
+      "IF": "STAT5b gain-of-function syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001047 - Atopic dermatitis",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "81": {
+      "IF": "Wiskott-Aldrich syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0025085 - Bloody diarrhea",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "82": {
+      "IF": "Other Tregopathies",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001047 - Atopic dermatitis",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "83": {
+      "IF": "CD25 deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001047 - Atopic dermatitis",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "84": {
+      "IF": "Aicardi–Goutières syndrome (AGS)",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001298 - Encephalopathy",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "85": {
+      "IF": "Aicardi–Goutières syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001298 - Encephalopathy",
+          "STRENGTH": "variable"
+        }
+      ]
+    },
+    "86": {
+      "IF": "Common Variable Immunodeficiency Disorders",
+      "THEN": [
+        {
+          "CONSTRAINT": "IgG < 4.5 g/L",
+          "STRENGTH": "nearly 95%"
+        },
+        {
+          "CONSTRAINT": "IgG levels < 4.5 g/L",
+          "STRENGTH": "85%-94%"
+        },
+        {
+          "CONSTRAINT": "IgM levels < 0.25 g/L",
+          "STRENGTH": "approximately 80%"
+        }
+      ]
+    },
+    "87": {
+      "IF": "Common Variable Immunodeficiency",
+      "THEN": [
+        {
+          "CONSTRAINT": "IgG < -2",
+          "STRENGTH": "always"
+        }
+      ],
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001045 - Vitiligo",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0011109 - Chronic sinusitis",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "88": {
+      "IF": "Phagocyte dysfunction",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001058 - Poor wound healing",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "89": {
+      "IF": "CHAPLE disease",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0004395 - Malnutrition",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0002243 - Protein-losing enteropathy",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "90": {
+      "IF": "RAG deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001045 - Vitiligo",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "91": {
+      "IF": "Primary Immunodeficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0003040 - Arthropathy",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0001045 - Vitiligo",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0001058 - Poor wound healing",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "92": {
+      "IF": "NF-κB1 deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001045 - Vitiligo",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "93": {
+      "IF": "CD27 deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0020071 - Viremia",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "94": {
+      "IF": "Severe combined immunodeficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001882 - Decreased total leukocyte count",
+          "STRENGTH": "usually"
+        },
+        {
+          "CONSTRAINT": "HPO:0001882 - Decreased total leukocyte count",
+          "STRENGTH": "usually"
+        }
+      ]
+    },
+    "95": {
+      "IF": "Immunodeficiency, centromeric instability, and facial anomalies syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0005363 - Humoral immunodeficiency",
+          "STRENGTH": "usually"
+        }
+      ]
+    },
+    "96": {
+      "IF": "Idiopathic CD4 lymphocytopenia",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0020114 - Persistent human papillomavirus infection",
+          "STRENGTH": "most frequent presentations"
+        }
+      ]
+    },
+    "97": {
+      "IF": "Defects of vitamin B12 and folate metabolism",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001882 - Decreased total leukocyte count",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "98": {
+      "IF": "Agammaglobulinemia",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0031864 - Bacteremia",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "99": {
+      "IF": "agammaglobulinemia",
+      "THEN": [
+        {
+          "CONSTRAINT": "serum IgG level < 100 mg/dL",
+          "STRENGTH": "usually"
+        },
+        {
+          "CONSTRAINT": "IgM level < 20 mg/dL",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "100": {
+      "IF": "Good syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0012410 - Pure red cell aplasia",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0012410 - Pure red cell aplasia",
+          "STRENGTH": "frequent complication"
+        }
+      ]
+    },
+    "101": {
+      "IF": "Familial hemophagocytic lymphohistiocytosis",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0011900 - Hypofibrinogenemia",
+          "STRENGTH": "always"
+        },
+        {
+          "CONSTRAINT": "HPO:0001289 - Confusion",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0002902 - Hyponatremia",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "102": {
+      "IF": "Autoimmune lymphoproliferative syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001733 - Pancreatitis",
+          "STRENGTH": "rare"
+        }
+      ]
+    },
+    "103": {
+      "IF": "Autoimmune polyendocrinopathy-candidiasis-ectodermal dystrophy",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001045 - Vitiligo",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "104": {
+      "IF": "Neutropenia",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0033834 - Malaise",
+          "STRENGTH": "often"
+        }
+      ]
+    },
+    "105": {
+      "IF": "Glycogen storage disease 1b",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001943 - Hypoglycemia",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "106": {
+      "IF": "Leukocyte adhesion deficiency type I",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001058 - Poor wound healing",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "107": {
+      "IF": "Rac2 deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001058 - Poor wound healing",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "108": {
+      "IF": "GATA-2 deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0005101 - High-frequency hearing impairment",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "109": {
+      "IF": "NEMO syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001004 - Lymphedema",
+          "STRENGTH": "A small subset"
+        }
+      ]
+    },
+    "110": {
+      "IF": "IRAK-4 deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0003095 - Septic arthritis",
+          "STRENGTH": "15%"
+        },
+        {
+          "CONSTRAINT": "HPO:0025084 - Folliculitis",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0003496 - Increased circulating IgM level",
+          "STRENGTH": "sometimes"
+        }
+      ]
+    },
+    "111": {
+      "IF": "RBCK1 deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001954 - Recurrent fever",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "112": {
+      "IF": "Aicardi-Goutieres syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001298 - Encephalopathy",
+          "STRENGTH": "usually"
+        }
+      ]
+    },
+    "113": {
+      "IF": "Chronic mucocutaneous candidiasis",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0032515 - Deep dermatophytosis",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "114": {
+      "IF": "Cryopyrin-associated periodic syndromes",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001894 - Thrombocytosis",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0011897 - Increased total neutrophil count",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0011897 - Increased total neutrophil count",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0001217 - Clubbing",
+          "STRENGTH": "sometimes"
+        }
+      ]
+    },
+    "115": {
+      "IF": "Deficiency of IL-1 receptor antagonist",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001894 - Thrombocytosis",
+          "STRENGTH": "usually"
+        }
+      ]
+    },
+    "116": {
+      "IF": "PSMB8 defect",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0034786 - Leukocytoclastic vasculitis",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "117": {
+      "IF": "PFAPA syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0025143 - Chills",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0033834 - Malaise",
+          "STRENGTH": "37.5%"
+        }
+      ]
+    },
+    "118": {
+      "IF": "PSTPIP1-Associated Myeloid-Related Proteinemia Inflammatory (PAMI) Syndrome",
+      "THEN": [
+        {
+          "CONSTRAINT": "ANC 0.08 to 1.3 G/L",
+          "STRENGTH": "98%"
+        }
+      ],
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001058 - Poor wound healing",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0001397 - Hepatic steatosis",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0001894 - Thrombocytosis",
+          "STRENGTH": "9%"
+        }
+      ]
+    },
+    "119": {
+      "IF": "Severe Combined Immunodeficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0011946 - Bronchiolitis obliterans",
+          "STRENGTH": "variable"
+        },
+        {
+          "CONSTRAINT": "HPO:0011945 - Bronchiolitis obliterans organizing pneumonia",
+          "STRENGTH": "variable"
+        },
+        {
+          "CONSTRAINT": "HPO:0002664 - Neoplasm",
+          "STRENGTH": "variable"
+        },
+        {
+          "CONSTRAINT": "HPO:0003198 - Myopathy",
+          "STRENGTH": "variable"
+        },
+        {
+          "CONSTRAINT": "HPO:0100324 - Scleroderma",
+          "STRENGTH": "variable"
+        }
+      ]
+    },
+    "120": {
+      "IF": "Cryopyrin-Associated Periodic Syndromes",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0000572 - Visual loss",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "121": {
+      "IF": "MKD",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0003198 - Myopathy",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "122": {
+      "IF": "chronic immune thrombocytopenia",
+      "THEN": [
+        {
+          "CONSTRAINT": "platelet count < 5000 count/mL",
+          "STRENGTH": "asserted"
+        }
+      ],
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0034315 - Chronic cough",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "123": {
+      "IF": "Common Variable Immune Deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0033770 - Gastric adenocarcinoma",
+          "STRENGTH": "increases the risk for"
+        },
+        {
+          "CONSTRAINT": "HPO:0001409 - Portal hypertension",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0100281 - Chronic colitis",
+          "STRENGTH": "often"
+        }
+      ]
+    },
+    "124": {
+      "IF": "22q11.2 deletion syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001626 - Abnormality of the cardiovascular system",
+          "STRENGTH": "64"
+        },
+        {
+          "CONSTRAINT": "HPO:0001607 - Subglottic stenosis",
+          "STRENGTH": "often seen"
+        },
+        {
+          "CONSTRAINT": "HPO:0002870 - Obstructive sleep apnea",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0002870 - Obstructive sleep apnea",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0002870 - Obstructive sleep apnea",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0002870 - Obstructive sleep apnea",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0002870 - Obstructive sleep apnea",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0000121 - Nephrocalcinosis",
+          "STRENGTH": "7–36 %"
+        },
+        {
+          "CONSTRAINT": "HPO:0001300 - Parkinsonism",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0001336 - Myoclonus",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0005978 - Type II diabetes mellitus",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0001004 - Lymphedema",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0002870 - Obstructive sleep apnea",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0001397 - Hepatic steatosis",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0000132 - Menorrhagia",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0000121 - Nephrocalcinosis",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0001397 - Hepatic steatosis",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0002870 - Obstructive sleep apnea",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0001336 - Myoclonus",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0012452 - Restless legs",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0001300 - Parkinsonism",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0005978 - Type II diabetes mellitus",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0001004 - Lymphedema",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0002870 - Obstructive sleep apnea",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0100785 - Insomnia",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0012452 - Restless legs",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0001397 - Hepatic steatosis",
+          "STRENGTH": "in a substantial minority"
+        },
+        {
+          "CONSTRAINT": "HPO:0000121 - Nephrocalcinosis",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0001045 - Vitiligo",
+          "STRENGTH": "often"
+        },
+        {
+          "CONSTRAINT": "HPO:0002758 - Osteoarthritis",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0000121 - Nephrocalcinosis",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0001882 - Decreased total leukocyte count",
+          "STRENGTH": "usually"
+        },
+        {
+          "CONSTRAINT": "HPO:0001045 - Vitiligo",
+          "STRENGTH": "often"
+        },
+        {
+          "CONSTRAINT": "HPO:0002870 - Obstructive sleep apnea",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0001300 - Parkinsonism",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0032551 - Hemorrhoids",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0002870 - Obstructive sleep apnea",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "125": {
+      "IF": "Autosomal recessive partial STAT1 LOF",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001004 - Lymphedema",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "126": {
+      "IF": "Autosomal dominant STAT1 LOF",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0002664 - Neoplasm",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "127": {
+      "IF": "Autosomal dominant Hyper IgE syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0020102 - Pneumocystis jirovecii pneumonia",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "128": {
+      "IF": "Autosomal Dominant Hyper-IgE Syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0012432 - Chronic fatigue",
+          "STRENGTH": "significant number"
+        },
+        {
+          "CONSTRAINT": "HPO:0001649 - Tachycardia",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "129": {
+      "IF": "STAT3 gain of function",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0002664 - Neoplasm",
+          "STRENGTH": "rare"
+        }
+      ]
+    },
+    "130": {
+      "IF": "hyper IgE syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001677 - Coronary artery atherosclerosis",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "131": {
+      "IF": "STAT1 gain-of-function mutation",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0100633 - Esophagitis",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "132": {
+      "IF": "Familial Mediterranean fever",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0100749 - Chest pain",
+          "STRENGTH": "40 % of patients"
+        },
+        {
+          "CONSTRAINT": "HPO:0011227 - Elevated circulating C-reactive protein concentration",
+          "STRENGTH": "always"
+        },
+        {
+          "CONSTRAINT": "HPO:0100749 - Chest pain",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0011227 - Elevated circulating C-reactive protein concentration",
+          "STRENGTH": "always"
+        }
+      ]
+    },
+    "133": {
+      "IF": "Tumor necrosis factor receptor-associated periodic syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001954 - Recurrent fever",
+          "STRENGTH": "mean length of 1 up to 3 weeks"
+        },
+        {
+          "CONSTRAINT": "HPO:0001658 - Myocardial infarction",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "134": {
+      "IF": "Cryopyrin-associated periodic syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0000488 - Retinopathy",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "135": {
+      "IF": "Mevalonate kinase deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0003281 - Increased circulating ferritin concentration",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "136": {
+      "IF": "IL-1-mediated SAIDs",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0011897 - Increased total neutrophil count",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "137": {
+      "IF": "CAPS",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0000478 - Abnormality of the eye",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0000572 - Visual loss",
+          "STRENGTH": "sometimes"
+        }
+      ]
+    },
+    "138": {
+      "IF": "tumour necrosis factor receptor-associated periodic syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0100749 - Chest pain",
+          "STRENGTH": "variable"
+        }
+      ]
+    },
+    "139": {
+      "IF": "mevalonate kinase deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0025289 - Cervical lymphadenopathy",
+          "STRENGTH": "usually"
+        },
+        {
+          "CONSTRAINT": "HPO:0025289 - Cervical lymphadenopathy",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "140": {
+      "IF": "deficiency of the interleukin-1 receptor antagonist",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0011897 - Increased total neutrophil count",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "141": {
+      "IF": "IL-1 mediated systemic autoinflammatory diseases",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0011897 - Increased total neutrophil count",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "142": {
+      "IF": "hereditary angioedema",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0100845 - Anaphylactic shock",
+          "STRENGTH": "rare"
+        },
+        {
+          "CONSTRAINT": "HPO:0033834 - Malaise",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0033834 - Malaise",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0025406 - Asthenia",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0012532 - Chronic pain",
+          "STRENGTH": "rare"
+        }
+      ]
+    },
+    "143": {
+      "IF": "familial Mediterranean Fever",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001954 - Recurrent fever",
+          "STRENGTH": "typically"
+        },
+        {
+          "CONSTRAINT": "HPO:0045073 - Serositis",
+          "STRENGTH": "in most patients"
+        },
+        {
+          "CONSTRAINT": "HPO:0001882 - Decreased total leukocyte count",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "144": {
+      "IF": "Glycogen storage disease type Ib",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001943 - Hypoglycemia",
+          "STRENGTH": "usually"
+        },
+        {
+          "CONSTRAINT": "HPO:0001997 - Gout",
+          "STRENGTH": "usually"
+        }
+      ]
+    },
+    "145": {
+      "IF": "glycogen storage disease type Ib",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0003128 - Lactic acidosis",
+          "STRENGTH": "typical clinical symptoms"
+        },
+        {
+          "CONSTRAINT": "HPO:0001943 - Hypoglycemia",
+          "STRENGTH": "typical clinical symptoms"
+        }
+      ]
+    },
+    "146": {
+      "IF": "glycogen storage disease type IB",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001943 - Hypoglycemia",
+          "STRENGTH": "about 18%"
+        }
+      ]
+    },
+    "147": {
+      "IF": "Granulomatous lymphocytic interstitial lung disease",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0032252 - Granuloma",
+          "STRENGTH": "variable"
+        }
+      ]
+    },
+    "148": {
+      "IF": "Primary antibody deficiencies",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0011109 - Chronic sinusitis",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "149": {
+      "IF": "Dyskeratosis congenita",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0002664 - Neoplasm",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0002664 - Neoplasm",
+          "STRENGTH": "about 15%"
+        }
+      ]
+    },
+    "150": {
+      "IF": "Diamond-Blackfan anemia",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001972 - Macrocytic anemia",
+          "STRENGTH": "always"
+        },
+        {
+          "CONSTRAINT": "HPO:0002756 - Pathologic fracture",
+          "STRENGTH": "up to 20% of patients"
+        },
+        {
+          "CONSTRAINT": "HPO:0001894 - Thrombocytosis",
+          "STRENGTH": "occasional"
+        }
+      ]
+    },
+    "151": {
+      "IF": "APECED syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001045 - Vitiligo",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "152": {
+      "IF": "SLE",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001045 - Vitiligo",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0100614 - Myositis",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "153": {
+      "IF": "STAT3 gain-of-function mutation",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0002608 - Celiac disease",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "154": {
+      "IF": "C2 deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0030880 - Raynaud phenomenon",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "155": {
+      "IF": "Ataxia-Telangiectasia",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0005978 - Type II diabetes mellitus",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "156": {
+      "IF": "hemophagocytic syndromes",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0011900 - Hypofibrinogenemia",
+          "STRENGTH": "always"
+        }
+      ]
+    },
+    "157": {
+      "IF": "NLRC4-related macrophage activation syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0003281 - Increased circulating ferritin concentration",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "158": {
+      "IF": "Majeed syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001935 - Microcytic anemia",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "159": {
+      "IF": "Haploinsufficiency of A20",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0025084 - Folliculitis",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "160": {
+      "IF": "Deficiency of IL-36 receptor antagonist",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0003228 - Hypernatremia",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "161": {
+      "IF": "Early onset of inflammatory bowel disease",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0025085 - Bloody diarrhea",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0025084 - Folliculitis",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0025084 - Folliculitis",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "162": {
+      "IF": "CANDLE syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0100614 - Myositis",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0001894 - Thrombocytosis",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "163": {
+      "IF": "Aicardi-Goutières Syndromes",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001298 - Encephalopathy",
+          "STRENGTH": "always"
+        }
+      ]
+    },
+    "164": {
+      "IF": "Deficiency of adenosine deaminase 2",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001409 - Portal hypertension",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0025289 - Cervical lymphadenopathy",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0005363 - Humoral immunodeficiency",
+          "STRENGTH": "variable"
+        }
+      ]
+    },
+    "165": {
+      "IF": "Spondyloenchondrodysplasia with immune dysregulation",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001045 - Vitiligo",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0030880 - Raynaud phenomenon",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "166": {
+      "IF": "Blau syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0003565 - Elevated erythrocyte sedimentation rate",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "167": {
+      "IF": "cryopyrin-associated periodic syndromes",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0025289 - Cervical lymphadenopathy",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0000572 - Visual loss",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0100749 - Chest pain",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "168": {
+      "IF": "hereditary angioedema with C1 inhibitor deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0011897 - Increased total neutrophil count",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "169": {
+      "IF": "22q11.2 Deletion syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001370 - Rheumatoid arthritis",
+          "STRENGTH": "3.75%"
+        },
+        {
+          "CONSTRAINT": "HPO:0001370 - Rheumatoid arthritis",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "170": {
+      "IF": "Bloom syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0002664 - Neoplasm",
+          "STRENGTH": "80.9% by age 40"
+        },
+        {
+          "CONSTRAINT": "HPO:0002664 - Neoplasm",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0002664 - Neoplasm",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0002664 - Neoplasm",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0030166 - Night sweats",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0001041 - Facial erythema",
+          "STRENGTH": "often"
+        },
+        {
+          "CONSTRAINT": "HPO:0040270 - Impaired glucose tolerance",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0005978 - Type II diabetes mellitus",
+          "STRENGTH": "often"
+        },
+        {
+          "CONSTRAINT": "HPO:0011109 - Chronic sinusitis",
+          "STRENGTH": "sometimes"
+        },
+        {
+          "CONSTRAINT": "HPO:0000789 - Infertility",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0002664 - Neoplasm",
+          "STRENGTH": "uncertain"
+        }
+      ]
+    },
+    "171": {
+      "IF": "Interstitial Lung Diseases",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0031246 - Nonproductive cough",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "172": {
+      "IF": "Primary antibody deficiency",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0033670 - Organizing pneumonia",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0025179 - Ground-glass opacification",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0033542 - Bronchial wall thickening",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0002664 - Neoplasm",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "173": {
+      "IF": "Granulomatous-lymphocytic interstitial lung disease",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0025179 - Ground-glass opacification",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0033670 - Organizing pneumonia",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "174": {
+      "IF": "Primary Antibody Deficiencies",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0002664 - Neoplasm",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "175": {
+      "IF": "CANDLE/PRAAS",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001397 - Hepatic steatosis",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0100614 - Myositis",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0001397 - Hepatic steatosis",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0100614 - Myositis",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0001397 - Hepatic steatosis",
+          "STRENGTH": "Forty to eighty percent"
+        },
+        {
+          "CONSTRAINT": "HPO:0001397 - Hepatic steatosis",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "176": {
+      "IF": "SAVI",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001397 - Hepatic steatosis",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0100614 - Myositis",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0100614 - Myositis",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0030880 - Raynaud phenomenon",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0001217 - Clubbing",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0002789 - Tachypnea",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0000488 - Retinopathy",
+          "STRENGTH": "uncertain"
+        }
+      ]
+    },
+    "177": {
+      "IF": "AGS",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001397 - Hepatic steatosis",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0100614 - Myositis",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0100614 - Myositis",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0030880 - Raynaud phenomenon",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0000863 - Central diabetes insipidus",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "178": {
+      "IF": "Aicardi-Goutières syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001298 - Encephalopathy",
+          "STRENGTH": "usually"
+        },
+        {
+          "CONSTRAINT": "HPO:0000488 - Retinopathy",
+          "STRENGTH": "uncertain"
+        }
+      ]
+    },
+    "179": {
+      "IF": "Common variable immune deficiency",
+      "THEN": [
+        {
+          "CONSTRAINT": "IgG >= 4 g/L",
+          "STRENGTH": "always"
+        }
+      ]
+    },
+    "180": {
+      "IF": "ataxia-telangiectasia mutated heterozygotes",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0003002 - Breast carcinoma",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0003002 - Breast carcinoma",
+          "STRENGTH": "38%"
+        },
+        {
+          "CONSTRAINT": "HPO:0003002 - Breast carcinoma",
+          "STRENGTH": "69%"
+        },
+        {
+          "CONSTRAINT": "HPO:0002664 - Neoplasm",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "181": {
+      "IF": "ATM heterozygosity",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001677 - Coronary artery atherosclerosis",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "182": {
+      "IF": "GATA2 deficiency syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001004 - Lymphedema",
+          "STRENGTH": "variable"
+        }
+      ]
+    },
+    "183": {
+      "IF": "ataxia-telangiectasia",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001300 - Parkinsonism",
+          "STRENGTH": "often"
+        },
+        {
+          "CONSTRAINT": "HPO:0002080 - Intention tremor",
+          "STRENGTH": "asserted"
+        },
+        {
+          "CONSTRAINT": "HPO:0001336 - Myoclonus",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "184": {
+      "IF": "monogenic autoinflammatory diseases",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0011227 - Elevated circulating C-reactive protein concentration",
+          "STRENGTH": "sometimes"
+        }
+      ]
+    },
+    "185": {
+      "IF": "Haploinsufficiency A20",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0025084 - Folliculitis",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "186": {
+      "IF": "VEXAS syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001972 - Macrocytic anemia",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "187": {
+      "IF": "Type I interferonopathies",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001298 - Encephalopathy",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "188": {
+      "IF": "VEXAS",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001972 - Macrocytic anemia",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "189": {
+      "IF": "STAT1 gain-of-function mutations",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001045 - Vitiligo",
+          "STRENGTH": "possible"
+        },
+        {
+          "CONSTRAINT": "HPO:0001045 - Vitiligo",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "190": {
+      "IF": "STAT2 gain of function",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001954 - Recurrent fever",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "191": {
+      "IF": "STAT4 gain of function",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001058 - Poor wound healing",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "192": {
+      "IF": "STAT6 gain of function",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0001047 - Atopic dermatitis",
+          "STRENGTH": "always"
+        },
+        {
+          "CONSTRAINT": "HPO:0002756 - Pathologic fracture",
+          "STRENGTH": "asserted"
+        }
+      ]
+    },
+    "193": {
+      "IF": "Mendelian susceptibility to mycobacterial diseases",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0002840 - Lymphadenitis",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "194": {
+      "IF": "Hyper-IgE syndrome",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0002840 - Lymphadenitis",
+          "STRENGTH": "common"
+        }
+      ]
+    },
+    "195": {
+      "IF": "Allergic/histamine mediated angioedema",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0100845 - Anaphylactic shock",
+          "STRENGTH": "possible"
+        }
+      ]
+    },
+    "196": {
+      "IF": "Acquired Angioedema",
+      "HPO": [
+        {
+          "CONSTRAINT": "HPO:0031047 - Paraproteinemia",
+          "STRENGTH": "possible"
+        }
+      ]
+    }
+  }
+}
